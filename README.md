@@ -1,4 +1,4 @@
 # Basic-Calculator
-basic calculator project in using Html, CSS and Javascript
+Build a basic calculator using Html, CSS and Javascript
 
 
