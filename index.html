@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device=width, initial-1.0"scale>
+	<meta http.equiv= "X.UA.compatible" content="ie=edge">
+	<link rel="stylesheet" href="index.css">
+	<script src="./script.js"></script>
+	<title>my.calculator</title>
+</head>
+<body>
+	<div class="container">
+<div class="container">
+	<input type="text" class="cal-display" placeholder="0" readonly="readonly" id="container">
+<div class="cal-keys">
+	
+
+	
+	<div class="cal-row">
+	<button class="num" value="1" id="number_1" onclick="enterNumberOne()"> 1</button>
+	<button class="num" value="2" id="number_2" onclick="enterNumberTwo()"> 2</button>
+	<button class="num" value="3" id="number_3" onclick="enterNumberThree()"> 3</button>
+	<button class="op btn-blue" value="+" id="operation_+" onclick="enterOperationAddition()"> +</button>
+	<button class="op btn-blue" value="-" id="operation_-" onclick="enterOperationSubtraction()"> -</button>
+	</div>
+
+	<div class="cal-row">
+	<button class="num" value="4" id="number_4" onclick="enterNumberFour()"> 4</button>
+	<button class="num" value="5" id="number_5" onclick="enterNumberFive()"> 5</button>
+	<button class="num" value="6" id="number_6" onclick="enterNumberSix()"> 6</button>
+	<button class="op btn-blue" value="/" id="operation_/" onclick="enterOperationDivision()"> /</button>
+	<button class="op btn-blue" value="*" id="operation_*" onclick="enterOperationMultiplication()"> *</button>
+	</div>
+
+
+	<div class="cal-row">
+	<button class="num" value="7" id="number_7" onclick="enterNumberSeven()"> 7</button>
+	<button class="num" value="8" id="number_8" onclick="enterNumberEight()"> 8</button>
+	<button class="num" value="9" id="number_9" onclick="enterNumberNine()"> 9</button>
+	<button class="op btn-blue" value="(" id="operation_%" onclick="enterOperationLeftbracket()"> (</button>
+	<button class="op btn-blue" value=")" id="operation_^" onclick="enterOperationRightbracket()"> )</button>
+	</div>
+
+	<div class="cal-row">
+	<button class="num" value="." id="dot" onclick="enterNumberDot()"> .</button>
+	<button class="num" value="0" id="number_0" onclick="enterNumberZero()"> 0</button>
+	<button class="btn-clear" id="clear" value=" " id="operation_clear" onclick="enterOperationClear()"> Clear</button>
+	</div>
+
+	<div class="cal-row">
+	<button class="btn-equal"  value="=" id="operation_=" onclick="enterOperationEqual()"> =</button>
+	<button class="btn-leftarrow"  value="←" id="operation_←" onclick="enterOperationLeftarrow()"> ←</button>
+	</div>
+
+</body>
+</html>   
+
